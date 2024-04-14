@@ -3,6 +3,10 @@
     
     <div *ngFor="let quiz of quizs; index as i;">
         <p>{{quiz.question}}</p>
-        <p class="response" style="color: greenyellow;">{{quiz.response}}</p>
+        <form (submit)="onSubmit()">
+            <input [(ngModel)]="playerResponse" name="playerResponse">
+         </form>
+        <button type="button" (click)="onClick()">OK</button>
+        <p class="response" style="color: rgb(231, 241, 214);">{{quiz.response}}</p>
     </div>
 </div>
