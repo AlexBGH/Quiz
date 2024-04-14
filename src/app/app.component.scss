@@ -1,3 +1,13 @@
-p{
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h1, p{
     color: white;
+}
+
+.response{
+    color: greenyellow;
 }
