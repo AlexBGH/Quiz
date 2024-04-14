@@ -1,6 +1,6 @@
-<p>QUIZs</p>
+<p>QUIZ : {{quizName}}</p>
 
-<p *ngFor="let quiz of quizs; index as i;">
-    {{quiz.question}}
-    {{quiz.response}}
-</p>
+<div *ngFor="let quiz of quizs; index as i;">
+    <p>{{quiz.question}}</p>
+    <p style="color: greenyellow;">{{quiz.response}}</p>
+</div>
