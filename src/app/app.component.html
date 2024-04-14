@@ -1,1 +1,6 @@
 <p>QUIZs</p>
+
+<p *ngFor="let quiz of quizs; index as i;">
+    {{quiz.question}}
+    {{quiz.response}}
+</p>
