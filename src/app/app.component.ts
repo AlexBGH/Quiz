@@ -53,7 +53,7 @@ export class AppComponent implements OnInit {
           question: "Qui est ce personnage ?", 
           playerAnswer: "", 
           answer: "Eikichi Onizuka",
-          possibleAnswers: ["Eikichi Onizuka", "GTO", "Onizuka", "Onizuka Eikichi"],
+          possibleAnswers: ["EIKICHI ONIZUKA", "GTO", "ONIZUKA", "ONIZUKA EIKICHI"],
           visible: true, 
           hasAnswered: false, 
           hasGoodAnswer: false, 
@@ -77,7 +77,7 @@ export class AppComponent implements OnInit {
           question: "Qui est ce personnage ?", 
           playerAnswer: "", 
           answer: "Silver Wolf", 
-          possibleAnswers: ["La waifu de Ryu", "Silver Wolf"],
+          possibleAnswers: ["LA WAIFU DE RYU", "SILVER WOLF"],
           visible: true, 
           hasAnswered: false, 
           hasGoodAnswer: false, 
@@ -101,7 +101,7 @@ export class AppComponent implements OnInit {
           question: "Qui est ce personnage ?", 
           playerAnswer: "", 
           answer: "Doctor Who", 
-          possibleAnswers: ["Doctor Who", "Le docteur"],
+          possibleAnswers: ["DOCTOR WHO", "LE DOCTEUR", "DR WHO"],
           visible: true, 
           hasAnswered: false, 
           hasGoodAnswer: false, 
@@ -136,7 +136,7 @@ export class AppComponent implements OnInit {
     this.quizs[i].playerAnswer = playerAnswer;
     let array: boolean[] = [];
     this.quizs[i].possibleAnswers.forEach(e => {
-      array.push(playerAnswer === e);
+      array.push(playerAnswer.toUpperCase() === e);
     })
     this.quizs[i].hasGoodAnswer = array.includes(true);
     if(this.quizs[i].hasGoodAnswer && !this.quizs[i].useFourChoices) {
