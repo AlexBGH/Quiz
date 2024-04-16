@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-
+import { SafePipe } from './app.pipe';
 
 @NgModule({
-  declarations: [],
+  declarations: [SafePipe],
   imports: [
     CommonModule
   ]

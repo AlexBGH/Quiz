@@ -1,6 +1,7 @@
 import { CommonModule, NgFor, NgIf } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
@@ -8,10 +9,15 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet, NgFor, NgIf, CommonModule, FormsModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
 
 export class AppComponent implements OnInit {
+ 
+  constructor(private sanitizer: DomSanitizer) {
+  }
+ 
+  iframeSrc!: SafeUrl;
   quizName!: string;
   quizs!: {
     question: string, 
@@ -23,8 +29,10 @@ export class AppComponent implements OnInit {
     fourChoises: string[],
     elements: {
       urlPicture?: string, 
-      hasPicture: boolean,
-      urlVideo?: string, 
+      hasPicture: boolean, 
+      widthPicture?: number,
+      heightPicture?: number,
+      urlVideo?: SafeUrl, 
       widthVideo?: number,
       heightVideo?: number,
       hasVideo: boolean
@@ -70,11 +78,10 @@ export class AppComponent implements OnInit {
           ],
           elements: {
             urlPicture: "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
-            urlVideo: "https://www.youtube.com/embed/tgbNymZ7vqY",
-            widthVideo: 100,
-            heightVideo: 100,
+            widthPicture: 164,
+            heightPicture: 120,
             hasPicture: true,
-            hasVideo: true
+            hasVideo: false
           }
         },
         {

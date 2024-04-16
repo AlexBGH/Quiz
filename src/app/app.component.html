@@ -1,20 +1,24 @@
 <div class="container">
     <h1>QUIZ : {{quizName}}</h1>
     
-    <div *ngFor="let quiz of quizs; index as i;">
-        <img 
-            *ngIf="quiz.elements.hasPicture"
-            class="picture"
-            src="{{quiz.elements.urlPicture}}"
-            alt="img" 
-        />
-        <iframe 
-            *ngIf="quiz.elements.hasVideo"
-            width="{{quiz.elements.widthVideo}}" 
-            height="{{quiz.elements.heightVideo}}" 
-            src="{{quiz.elements.urlVideo}}">
-        </iframe>
-        <p>{{quiz.question}}</p>
+    <div class="blocQuestions" *ngFor="let quiz of quizs; index as i;">
+        <div>
+            <p>{{i}}- {{quiz.question}}</p>
+            <img 
+                *ngIf="quiz.elements.hasPicture"
+                class="picture"
+                width="{{quiz.elements.widthPicture}}" 
+                height="{{quiz.elements.heightPicture}}" 
+                src="{{quiz.elements.urlPicture}}"
+                alt="img" 
+            />
+            <iframe 
+                *ngIf="quiz.elements.hasVideo"
+                width="{{quiz.elements.widthVideo}}" 
+                height="{{quiz.elements.heightVideo}}" 
+                src="{{quiz.elements.urlVideo}}">
+            </iframe>
+        </div>
         <div *ngIf="!quiz.hasAnswered">
             <div>
                 <select name="allAnswers" id="answer-select" *ngIf="quiz.visible && quiz.useFourChoices" [(ngModel)]="quiz.playerAnswer">
