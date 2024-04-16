@@ -25,7 +25,7 @@
                     <option value="">--Choisir une réponse--</option>
                     <option *ngFor="let choice of quiz.fourChoises" value='{{choice}}'>{{choice}}</option>
                 </select>
-                <form (submit)="onSubmit(quiz.playerAnswer, i)" *ngIf="quiz.visible && !quiz.useFourChoices" autocomplete="off">
+                <form (submit)="onSubmit(quiz.playerAnswer, i)" *ngIf="quiz.visible && !quiz.useFourChoices" autocomplete="off" onkeypress="return event.keyCode != 13;">
                     <input [(ngModel)]="quiz.playerAnswer" name="playerResponse">
                 </form>
             </div>
