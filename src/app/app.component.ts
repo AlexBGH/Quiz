@@ -101,7 +101,7 @@ export class AppComponent implements OnInit {
           question: "Qui est ce personnage ?", 
           playerAnswer: "", 
           answer: "Doctor Who", 
-          possibleAnswers: ["Doctor Who, Le docteur"],
+          possibleAnswers: ["Doctor Who", "Le docteur"],
           visible: true, 
           hasAnswered: false, 
           hasGoodAnswer: false, 
