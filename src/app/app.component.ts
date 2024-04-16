@@ -13,14 +13,6 @@ import { RouterOutlet } from '@angular/router';
 
 export class AppComponent implements OnInit {
   quizName!: string;
-  question!: string;
-  playerAnswer!: string;
-  answer!: string;
-  visible!: boolean;
-  hasAnswered!: boolean;
-  hasGoodAnswer!: boolean;
-  useFourChoices!: boolean;
-  fourChoices!: [];
   quizs!: {
     question: string, 
     playerAnswer: string, 
@@ -28,54 +20,82 @@ export class AppComponent implements OnInit {
     hasAnswered: boolean, 
     hasGoodAnswer: boolean, 
     useFourChoices: boolean,
-    fourChoises: string[]
+    fourChoises: string[],
+    elements: {
+      urlPicture?: string, 
+      hasPicture: boolean,
+      urlVideo?: string, 
+      widthVideo?: number,
+      heightVideo?: number,
+      hasVideo: boolean
+    },
   }[];
   points: number = 0;
 
   ngOnInit() {
     this.quizName = "ANIME";
-    this.quizs = [
-      {
-        question: "Quel est le résultat de 1+1 ?", 
-        playerAnswer: "", answer: "2", 
-        visible: true, 
-        hasAnswered: false, 
-        hasGoodAnswer: false, 
-        useFourChoices: false, 
-        fourChoises: [
+    this.quizs = 
+    [
+        {
+          question: "Quel est le résultat de 1+1 ?", 
+          playerAnswer: "", answer: "2", 
+          visible: true, 
+          hasAnswered: false, 
+          hasGoodAnswer: false, 
+          useFourChoices: false, 
+          fourChoises: [
+            "4", 
+            "2", 
+            "6", 
+            "8"
+          ],
+          elements: {
+            hasPicture: false,
+            hasVideo: false
+          }
+        },
+        {
+          question: "Quel est le résultat de 2+2 ?", 
+          playerAnswer: "", 
+          answer: "4", 
+          visible: true, 
+          hasAnswered: false, 
+          hasGoodAnswer: false, 
+          useFourChoices: false, 
+          fourChoises: [
+            "6", 
+            "4", 
+            "2", 
+            "8"
+          ],
+          elements: {
+            urlPicture: "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
+            urlVideo: "https://www.youtube.com/embed/tgbNymZ7vqY",
+            widthVideo: 100,
+            heightVideo: 100,
+            hasPicture: true,
+            hasVideo: true
+          }
+        },
+        {
+          question: "Quel est le résultat de 3+3 ?", 
+          playerAnswer: "", 
+          answer: "6", 
+          visible: true, 
+          hasAnswered: false, 
+          hasGoodAnswer: false, 
+          useFourChoices: false, 
+          fourChoises: [
+          "8", 
           "4", 
-          "2", 
           "6", 
-          "8"
-        ]},
-      {
-        question: "Quel est le résultat de 2+2 ?", 
-        playerAnswer: "", 
-        answer: "4", 
-        visible: true, 
-        hasAnswered: false, 
-        hasGoodAnswer: false, 
-        useFourChoices: false, 
-        fourChoises: [
-          "6", 
-          "4", 
-          "2", 
-          "8"
-        ]},
-      {
-        question: "Quel est le résultat de 3+3 ?", 
-        playerAnswer: "", 
-        answer: "6", 
-        visible: true, 
-        hasAnswered: false, 
-        hasGoodAnswer: false, 
-        useFourChoices: false, 
-        fourChoises: [
-        "8", 
-        "4", 
-        "6", 
-        "2"
-      ]},
+          "2"
+        ],
+        elements: {
+          hasPicture: false,
+          hasVideo: false
+        }
+      },
     ]
   }
   onClickPlayerAnswer(playerAnswer: string, i: number) {

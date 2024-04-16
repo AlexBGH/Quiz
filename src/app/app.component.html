@@ -2,6 +2,18 @@
     <h1>QUIZ : {{quizName}}</h1>
     
     <div *ngFor="let quiz of quizs; index as i;">
+        <img 
+            *ngIf="quiz.elements.hasPicture"
+            class="picture"
+            src="{{quiz.elements.urlPicture}}"
+            alt="img" 
+        />
+        <iframe 
+            *ngIf="quiz.elements.hasVideo"
+            width="{{quiz.elements.widthVideo}}" 
+            height="{{quiz.elements.heightVideo}}" 
+            src="{{quiz.elements.urlVideo}}">
+        </iframe>
         <p>{{quiz.question}}</p>
         <div *ngIf="!quiz.hasAnswered">
             <div>
