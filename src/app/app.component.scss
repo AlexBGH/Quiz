@@ -1,15 +1,25 @@
 .container{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .blocQuestions{
-    margin-left: 6%;
+    border: solid;
+    border-radius: 10px;
+    border-color: whitesmoke;
+    width: 340;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.question{
+    margin-top: 20px;
 }
 
 h1{
     text-align: center;
+    margin-bottom: 60px;
 }
 
 h1, p{

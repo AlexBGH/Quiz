@@ -1,9 +1,9 @@
+<h1>QUIZ : {{quizName}}</h1>
 <div class="container">
-    <h1>QUIZ : {{quizName}}</h1>
     
     <div class="blocQuestions" *ngFor="let quiz of quizs; index as i;">
-        <div>
-            <p>{{i}}- {{quiz.question}}</p>
+        <div class="question">
+            <p>{{i+1}}- {{quiz.question}}</p>
             <img 
                 *ngIf="quiz.elements.hasPicture"
                 class="picture"
