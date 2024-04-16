@@ -5,7 +5,8 @@ import { SafePipe } from './app.pipe';
 @NgModule({
   declarations: [SafePipe],
   imports: [
-    CommonModule
+    CommonModule,
+    SafePipe
   ]
 })
 export class AppModule { }

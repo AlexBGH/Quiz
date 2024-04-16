@@ -120,6 +120,33 @@ export class AppComponent implements OnInit {
           hasVideo: false
         }
       },
+      // Question 4
+        {
+          question: "Qui est ce personnage ?", 
+          playerAnswer: "", 
+          answer: "Firefly", 
+          possibleAnswers: ["FIREFLY", "LUCIOLE"],
+          visible: true, 
+          hasAnswered: false, 
+          hasGoodAnswer: false, 
+          useFourChoices: false, 
+          fourChoises: [
+          "Abeille", 
+          "Firefly", 
+          "Maya", 
+          "Guepe"
+        ],
+        elements: {
+          hasPicture: true,
+          urlPicture: "https://editors.dexerto.com/wp-content/uploads/2023/12/15/Firefly-Honkai-Star-Rail.jpg",
+          widthPicture: 164,
+          heightPicture: 120,
+          hasVideo: false,
+          urlVideo: this.sanitizer.bypassSecurityTrustUrl("https://www.youtube-nocookie.com/embed/AkaynDV6O3I?playlist=AkaynDV6O3I&autoplay=1&iv_load_policy=3&loop=1&start="),
+          widthVideo: 200,
+          heightVideo: 200
+        }
+      },
     ]
     //----------------------------------------------------
   }
