@@ -22,7 +22,8 @@ export class AppComponent implements OnInit {
   quizs!: {
     question: string, 
     playerAnswer: string, 
-    answer: string, 
+    answer: string,
+    possibleAnswers: string[], 
     visible: boolean, 
     hasAnswered: boolean, 
     hasGoodAnswer: boolean, 
@@ -42,7 +43,7 @@ export class AppComponent implements OnInit {
   points: number = 0;
 
   ngOnInit() {
-    this.quizName = "ANIME";
+    this.quizName = "PERSONNAGES";
 
     //questions ---------------------------------------
     this.quizs = 
@@ -51,8 +52,8 @@ export class AppComponent implements OnInit {
         {
           question: "Qui est ce personnage ?", 
           playerAnswer: "", 
-          //answer: "GTO" || "Onizuka" || "Eikichi Onizuka" || "Onizuka Eikichi", 
           answer: "Eikichi Onizuka",
+          possibleAnswers: ["Eikichi Onizuka", "GTO", "Onizuka", "Onizuka Eikichi"],
           visible: true, 
           hasAnswered: false, 
           hasGoodAnswer: false, 
@@ -75,19 +76,20 @@ export class AppComponent implements OnInit {
         {
           question: "Qui est ce personnage ?", 
           playerAnswer: "", 
-          answer: "4", 
+          answer: "Silver Wolf", 
+          possibleAnswers: ["La waifu de Ryu", "Silver Wolf"],
           visible: true, 
           hasAnswered: false, 
           hasGoodAnswer: false, 
           useFourChoices: false, 
           fourChoises: [
-            "6", 
-            "4", 
-            "2", 
-            "8"
+            "Silver Rabbit", 
+            "La waifu de Ryu", 
+            "Platinium Wolf", 
+            "Silver Wolf"
           ],
           elements: {
-            urlPicture: "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
+            urlPicture: "https://assetsio.gnwcdn.com/Honkai-Star-Rail-Silver-Wolf-best-build%2C-Ascension-materials%2C-Trace-materials%2C-team%2C-and-Light-Cone-cover.jpg?width=1200&height=1200&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
             widthPicture: 164,
             heightPicture: 120,
             hasPicture: true,
@@ -98,19 +100,23 @@ export class AppComponent implements OnInit {
         {
           question: "Qui est ce personnage ?", 
           playerAnswer: "", 
-          answer: "6", 
+          answer: "Doctor Who", 
+          possibleAnswers: ["Doctor Who, Le docteur"],
           visible: true, 
           hasAnswered: false, 
           hasGoodAnswer: false, 
           useFourChoices: false, 
           fourChoises: [
-          "8", 
-          "4", 
-          "6", 
-          "2"
+          "Tki toi", 
+          "Docteur Lui", 
+          "Doctor Who", 
+          "Doctor Wuu"
         ],
         elements: {
-          hasPicture: false,
+          hasPicture: true,
+          widthPicture: 164,
+          heightPicture: 120,
+          urlPicture: "https://www.critictoo.com/wp-content/uploads/2015/12/David-Tennant-Doctor-Who.jpg",
           hasVideo: false
         }
       },
@@ -128,12 +134,17 @@ export class AppComponent implements OnInit {
   }
   onSubmit(playerAnswer: string, i: number) {
     this.quizs[i].playerAnswer = playerAnswer;
-    this.quizs[i].hasGoodAnswer = (playerAnswer === this.quizs[i].answer)
+    let array: boolean[] = [];
+    this.quizs[i].possibleAnswers.forEach(e => {
+      array.push(playerAnswer === e);
+    })
+    this.quizs[i].hasGoodAnswer = array.includes(true);
     if(this.quizs[i].hasGoodAnswer && !this.quizs[i].useFourChoices) {
       this.points = this.points + 3;
     } else if (this.quizs[i].hasGoodAnswer && this.quizs[i].useFourChoices) {
       this.points = this.points + 1;
     }
+    console.error(this.points); 
     this.quizs[i].visible = !this.quizs[i].visible;
   }
   title = 'Quiz';
