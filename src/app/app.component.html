@@ -3,7 +3,7 @@
     
     <div class="blocQuestions" *ngFor="let quiz of quizs; index as i;">
         <div class="question">
-            <p>{{i+1}}- {{quiz.question}}</p>
+            <p style="width: 200px;">{{i+1}}- {{quiz.question}}</p>
             <img 
                 *ngIf="quiz.elements.hasPicture"
                 class="picture"
@@ -38,4 +38,4 @@
     </div>
 </div>
 
-<h1>VOTRE SCORE EST DE <span style="color: aquamarine;">{{points}}</span></h1>
+<h1>VOTRE SCORE EST DE <span style="color: aquamarine;">{{points}}</span> POINT{{points > 0 ? "S" : ""}}</h1>
