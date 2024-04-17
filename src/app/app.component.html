@@ -3,7 +3,7 @@
     
     <div class="blocQuestions" *ngFor="let quiz of quizs; index as i;">
         <div class="question">
-            <p style="width: 200px;">{{i+1}}- {{quiz.question}}</p>
+            <p style="width: 240px;">{{i+1}}- {{quiz.question}}</p>
             <img 
                 *ngIf="quiz.elements.hasPicture"
                 class="picture"
@@ -33,8 +33,10 @@
             <button type="button" (click)="onClickFourChoices(quiz.useFourChoices, i)" *ngIf="quiz.visible && !quiz.useFourChoices">Je veux les 4 choix</button>
             <button type="button" (click)="onClickPlayerAnswer(quiz.playerAnswer, i)" *ngIf="quiz.visible">OK</button>
         </div>
-        <p *ngIf="quiz.hasAnswered && quiz.hasGoodAnswer" class="response" style="color: greenyellow;">{{quiz.answer}}</p>
-        <p *ngIf="quiz.hasAnswered && !quiz.hasGoodAnswer" class="response" style="color: red;">{{quiz.answer}}</p>
+        <div>
+            <p *ngIf="quiz.hasAnswered && quiz.hasGoodAnswer" class="response" style="color: greenyellow;">{{quiz.answer}}</p>
+            <p *ngIf="quiz.hasAnswered && !quiz.hasGoodAnswer" class="response" style="color: red;">{{quiz.answer}}</p>
+        </div>
     </div>
 </div>
 
