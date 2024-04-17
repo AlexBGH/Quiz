@@ -59,10 +59,10 @@
             "hasGoodAnswer": false, 
             "useFourChoices": false, 
             "fourChoises": [
-            "Tki toi", 
-            "Docteur Lui", 
-            "Doctor Who", 
-            "Doctor Wuu"
+            "César", 
+            "Auguste", 
+            "Gabi", 
+            "Romulus"
             ],
             "elements": {
             "hasPicture": true,
@@ -74,29 +74,26 @@
         },
 
         {
-          "question": "Qui est ce personnage ?", 
+          "question": "Quel était la religion de Gengis Khan ?", 
           "playerAnswer": "", 
-          "answer": "Firefly", 
-          "possibleAnswers": ["FIREFLY", "LUCIOLE"],
+          "answer": "Taoïsme", 
+          "possibleAnswers": ["Taoïsme", "Taoisme"],
           "visible": true, 
           "hasAnswered": false, 
           "hasGoodAnswer": false, 
           "useFourChoices": false, 
           "fourChoises": [
-          "Abeille", 
-          "Firefly", 
-          "Maya", 
-          "Guepe"
+          "Judaïsme", 
+          "Taoïsme", 
+          "Hindouisme", 
+          "Christianisme"
         ],
         "elements": {
           "hasPicture": true,
-          "urlPicture": "https://editors.dexerto.com/wp-content/uploads/2023/12/15/Firefly-Honkai-Star-Rail.jpg",
+          "urlPicture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YuanEmperorAlbumGenghisPortrait.jpg/440px-YuanEmperorAlbumGenghisPortrait.jpg",
           "widthPicture": 164,
           "heightPicture": 120,
-          "hasVideo": false,
-          "urlVideo": "https://www.youtube-nocookie.com/embed/AkaynDV6O3I?playlist=AkaynDV6O3I&autoplay=1&iv_load_policy=3&loop=1&start=",
-          "widthVideo": 200,
-          "heightVideo": 200
+          "hasVideo": false
         }
       }
     ]
