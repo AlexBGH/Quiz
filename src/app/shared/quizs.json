@@ -26,7 +26,7 @@
         },
 
         {
-          "question": "Quand débutat la guerre de cent ans (écrire juste l'année à plus ou moins 5 ans près)?", 
+          "question": "Quand a débuté la guerre de cent ans (écrire juste l'année à plus ou moins 5 ans près)?", 
           "playerAnswer": "", 
           "answer": "1337", 
           "possibleAnswers": ["1337", "1336", "1335", "1334", "1332", "1338", "1339", "1340", "1342", "1341"],
