@@ -1,14 +1,16 @@
 import { CommonModule, NgFor, NgIf } from '@angular/common';
-import { Component, OnInit, Sanitizer } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
 import { RouterOutlet } from '@angular/router';
 import data from '././shared/quizs.json';
+import { SafePipe } from './shared/app.pipe';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, NgFor, NgIf, CommonModule, FormsModule],
+  providers: [ SafePipe ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
@@ -49,8 +51,8 @@ export class AppComponent implements OnInit {
     this.quizs = data;
   }
 
-  sanitizeURL(i: number) {
-    return this.sanitizer.bypassSecurityTrustUrl(this.quizs[i].elements.urlVideo);
+  sanitizeURL() {
+    return this.sanitizer.bypassSecurityTrustUrl(this.quizs[0].elements.urlVideo);
   }
 
   onClickPlayerAnswer(playerAnswer: string, i: number) {

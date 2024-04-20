@@ -25,90 +25,9 @@
             "urlAudio": "",
             "hasVideo": true,
             "urlVideo": "https://www.youtube-nocookie.com/embed/TursZNv5dA8?playlist=TursZNv5dA8&autoplay=1&iv_load_policy=3&loop=1&start=",
-            "widthVdeo": 164,
+            "widthVideo": 164,
             "heightVideo": 120
           }
-        },
-
-        {
-          "question": "Quand a débuté la guerre de cent ans (écrire juste l'année à plus ou moins 5 ans près) ?", 
-          "playerAnswer": "", 
-          "answer": "1337", 
-          "possibleAnswers": ["1337", "1336", "1335", "1334", "1332", "1338", "1339", "1340", "1342", "1341"],
-          "visible": true, 
-          "hasAnswered": false, 
-          "hasGoodAnswer": false, 
-          "useFourChoices": false, 
-          "fourChoises": [
-            "1331", 
-            "1330", 
-            "1337", 
-            "1343"
-          ],
-          "elements": {
-            "urlPicture": "https://www.histoire-pour-tous.fr/images/articles/dossiers/battle_of_crecy_froissart.jpg",
-            "widthPicture": 164,
-            "heightPicture": 120,
-            "hasPicture": true,
-            "hasAudio": false,
-            "urlAudio": "",
-            "hasVideo": false,
-            "urlVideo": "",
-            "widthVdeo": 0,
-            "heightVideo": 0
-          }
-        },
-
-        {
-            "question": "Quel empereur romain régnait quand Jésus fut crucifié ?", 
-            "playerAnswer": "", 
-            "answer": "Auguste", 
-            "possibleAnswers": ["AUGUSTE", "Caius Octavius", "Caius Iulius Caesar Octavianus", "Imperator Caesar Divi Filius Augustus"],
-            "visible": true, 
-            "hasAnswered": false, 
-            "hasGoodAnswer": false, 
-            "useFourChoices": false, 
-            "fourChoises": [
-            "César", 
-            "Auguste", 
-            "Gabi", 
-            "Romulus"
-            ],
-            "elements": {
-            "hasPicture": true,
-            "widthPicture": 164,
-            "heightPicture": 120,
-            "urlPicture": "https://francearchives.gouv.fr/fr/file/e3898a703dd619f5a7d2da4e81b56899a8e891c7/static_7203.jpeg",
-            "hasAudio": false,
-            "hasVideo": false
-            }
-        },
-
-        {
-          "question": "Quel était la religion de Gengis Khan ?", 
-          "playerAnswer": "", 
-          "answer": "Taoïsme", 
-          "possibleAnswers": ["Taoïsme", "Taoisme"],
-          "visible": true, 
-          "hasAnswered": false, 
-          "hasGoodAnswer": false, 
-          "useFourChoices": false, 
-          "fourChoises": [
-          "Judaïsme", 
-          "Taoïsme", 
-          "Hindouisme", 
-          "Christianisme"
-        ],
-        "elements": {
-          "hasPicture": true,
-          "urlPicture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YuanEmperorAlbumGenghisPortrait.jpg/440px-YuanEmperorAlbumGenghisPortrait.jpg",
-          "widthPicture": 164,
-          "heightPicture": 120,
-          "hasAudio": false,
-          "urlAudio": "",
-          "hasVideo": false,
-          "widthVdeo": 0,
-          "heightVideo": 0
         }
-      }
+
     ]

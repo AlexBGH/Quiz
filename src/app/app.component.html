@@ -19,9 +19,10 @@
             </audio>
             <iframe 
                 *ngIf="quiz.elements.hasVideo"
+                [src]='quiz.elements.urlVideo | safe' 
                 width="{{quiz.elements.widthVideo}}" 
                 height="{{quiz.elements.heightVideo}}" 
-                [src]='sanitizeURL(i)
+            >
             </iframe>
         </div>
         <div *ngIf="!quiz.hasAnswered">
