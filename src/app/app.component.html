@@ -2,8 +2,8 @@
 <div class="container">
     
     <div class="blocQuestions" *ngFor="let quiz of quizs; index as i;">
+        <p>{{i+1}}- {{quiz.question}}</p>
         <div class="question">
-            <p style="width: 240px;">{{i+1}}- {{quiz.question}}</p>
             <img 
                 *ngIf="quiz.elements.hasPicture"
                 class="picture"
@@ -12,12 +12,16 @@
                 src="{{quiz.elements.urlPicture}}"
                 alt="img" 
             />
+            <audio *ngIf="quiz.elements.hasAudio"
+                style="width: 164px; margin-bottom: 6px;" 
+                controls src="{{quiz.elements.urlAudio}}"
+            >
+            </audio>
             <iframe 
                 *ngIf="quiz.elements.hasVideo"
                 width="{{quiz.elements.widthVideo}}" 
                 height="{{quiz.elements.heightVideo}}" 
-                src="https://www.youtube-nocookie.com/embed/AkaynDV6O3I?playlist=AkaynDV6O3I&autoplay=1&iv_load_policy=3&loop=1&start=" 
-            >
+                [src]='sanitizeURL(i)
             </iframe>
         </div>
         <div *ngIf="!quiz.hasAnswered">
@@ -30,7 +34,12 @@
                     <input [(ngModel)]="quiz.playerAnswer" name="playerResponse">
                 </form>
             </div>
-            <button type="button" (click)="onClickFourChoices(quiz.useFourChoices, i)" *ngIf="quiz.visible && !quiz.useFourChoices">Je veux les 4 choix</button>
+            <div *ngIf="quiz.visible && !quiz.useFourChoices">
+                <button type="button" (click)="onClickFourChoices(quiz.useFourChoices, i)">Je veux les 4 choix</button>
+                <button type="button" (click)="onClickPlayerAnswer(quiz.playerAnswer, i)">OK</button>
+            </div>
+        </div>
+        <div *ngIf="quiz.useFourChoices">
             <button type="button" (click)="onClickPlayerAnswer(quiz.playerAnswer, i)" *ngIf="quiz.visible">OK</button>
         </div>
         <div>

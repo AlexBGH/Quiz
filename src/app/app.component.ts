@@ -1,7 +1,7 @@
 import { CommonModule, NgFor, NgIf } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Sanitizer } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SafeUrl } from '@angular/platform-browser';
+import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
 import { RouterOutlet } from '@angular/router';
 import data from '././shared/quizs.json';
 
@@ -14,7 +14,9 @@ import data from '././shared/quizs.json';
 })
 
 export class AppComponent implements OnInit {
- 
+
+  constructor(private sanitizer: DomSanitizer) {}
+  
   iframeSrc!: SafeUrl;
   quizName!: string;
   quizs!: {
@@ -28,13 +30,15 @@ export class AppComponent implements OnInit {
     useFourChoices: boolean,
     fourChoises: string[],
     elements: {
-      urlPicture?: string, 
+      urlPicture: string, 
       hasPicture: boolean, 
-      widthPicture?: number,
-      heightPicture?: number,
-      urlVideo?: SafeUrl, 
-      widthVideo?: number,
-      heightVideo?: number,
+      widthPicture: number,
+      heightPicture: number,
+      hasAudio: boolean, 
+      urlAudio: string,
+      urlVideo: string, 
+      widthVideo: number,
+      heightVideo: number,
       hasVideo: boolean
     },
   }[];
@@ -43,6 +47,10 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.quizName = "CULTURE";
     this.quizs = data;
+  }
+
+  sanitizeURL(i: number) {
+    return this.sanitizer.bypassSecurityTrustUrl(this.quizs[i].elements.urlVideo);
   }
 
   onClickPlayerAnswer(playerAnswer: string, i: number) {

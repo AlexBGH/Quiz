@@ -21,7 +21,12 @@
             "urlPicture": "https://www.meisterdrucke.fr/kunstwerke/1260px/Unknown_Artist_-_Portrait_of_Charlemagne_%28742_-_814%29_King_of_France_-_in_Histoire_des_Franais_by_-_%28MeisterDrucke-913795%29.jpg",
             "widthPicture": 164,
             "heightPicture": 120,
-            "hasVideo": false
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": true,
+            "urlVideo": "https://www.youtube-nocookie.com/embed/TursZNv5dA8?playlist=TursZNv5dA8&autoplay=1&iv_load_policy=3&loop=1&start=",
+            "widthVdeo": 164,
+            "heightVideo": 120
           }
         },
 
@@ -45,7 +50,12 @@
             "widthPicture": 164,
             "heightPicture": 120,
             "hasPicture": true,
-            "hasVideo": false
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVdeo": 0,
+            "heightVideo": 0
           }
         },
 
@@ -69,6 +79,7 @@
             "widthPicture": 164,
             "heightPicture": 120,
             "urlPicture": "https://francearchives.gouv.fr/fr/file/e3898a703dd619f5a7d2da4e81b56899a8e891c7/static_7203.jpeg",
+            "hasAudio": false,
             "hasVideo": false
             }
         },
@@ -93,7 +104,11 @@
           "urlPicture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YuanEmperorAlbumGenghisPortrait.jpg/440px-YuanEmperorAlbumGenghisPortrait.jpg",
           "widthPicture": 164,
           "heightPicture": 120,
-          "hasVideo": false
+          "hasAudio": false,
+          "urlAudio": "",
+          "hasVideo": false,
+          "widthVdeo": 0,
+          "heightVideo": 0
         }
       }
     ]
