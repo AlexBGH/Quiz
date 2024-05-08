@@ -17,10 +17,14 @@ import { SafePipe } from './shared/app.pipe';
 
 export class AppComponent implements OnInit {
 
-  constructor(private sanitizer: DomSanitizer) {}
+  constructor(private sanitizer: DomSanitizer) {
+  }
   
   iframeSrc!: SafeUrl;
+  dangerousUrl!: string;
   quizName!: string;
+  badAnswerWithChoices!: boolean;
+  count!: number;
   quizs!: {
     question: string, 
     playerAnswer: string, 
@@ -47,8 +51,18 @@ export class AppComponent implements OnInit {
   points: number = 0;
 
   ngOnInit() {
-    this.quizName = "CULTURE";
+    this.quizName = "";
     this.quizs = data;
+    this.countProperties();
+  }
+
+  updateVideoUrl(url: string) {
+    // Appending an ID to a YouTube URL is safe.
+    // Always make sure to construct SafeValue objects as
+    // close as possible to the input data so
+    // that it's easier to check if the value is safe.
+    this.dangerousUrl = url;
+    this.iframeSrc = this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
 
   sanitizeURL() {
@@ -56,10 +70,17 @@ export class AppComponent implements OnInit {
   }
 
   onClickPlayerAnswer(playerAnswer: string, i: number) {
-    if(!this.quizs[i].hasAnswered) {
-      this.onSubmit(playerAnswer, i);
-      this.quizs[i].hasAnswered = !this.quizs[i].hasAnswered;
-    }
+    this.onSubmit(playerAnswer, i);
+    if(!this.quizs[i].useFourChoices) {
+      this.badAnswerWithChoices = false;
+    } 
+    this.quizs[i].hasAnswered = !this.quizs[i].hasAnswered;
+  }
+
+  onClickPlayerAnswerAfterBadAnswer(playerAnswer: string, i: number) {
+    this.quizs[i].useFourChoices = true;
+    this.badAnswerWithChoices = true;
+    this.onSubmit(playerAnswer, i);
   }
 
   onClickFourChoices(useFourChoices: boolean, i: number) {
@@ -78,9 +99,20 @@ export class AppComponent implements OnInit {
     } else if (this.quizs[i].hasGoodAnswer && this.quizs[i].useFourChoices) {
       this.points = this.points + 1;
     }
-    console.error(this.points); 
-    this.quizs[i].visible = !this.quizs[i].visible;
+    if(!this.badAnswerWithChoices){
+      this.quizs[i].visible = !this.quizs[i].visible;
+    }
   }
+
+  countProperties() {
+    var count = 0;
+
+    for(var quiz in this.quizs) {
+     ++count;
+    }
+
+    this.count = count;
+}
 
   title = 'Quiz';
 }

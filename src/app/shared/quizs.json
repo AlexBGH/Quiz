@@ -2,31 +2,675 @@
     [
 
         {
-          "question": "Qui est cette personne ?", 
+          "question": "De quel anime est tiré cette image ?", 
           "playerAnswer": "", 
-          "answer": "Charlemagne",
-          "possibleAnswers": ["CHARLEMAGNE", "CAROLUS MAGNUS", "CHARLES 1ER", "CHARLES PREMIER", "CHARLES LE GRAND"],
+          "answer": "Paprika",
+          "possibleAnswers": ["Paprika"],
           "visible": true, 
           "hasAnswered": false, 
           "hasGoodAnswer": false, 
           "useFourChoices": false, 
           "fourChoises": [
-            "Charles Martel", 
-            "Charlemagne", 
-            "Charles X", 
-            "Charle II"
+            "Psycho-Pass", 
+            "B The Beginning", 
+            "Paprika", 
+            "Ajin"
           ],
           "elements": {
             "hasPicture": true,
-            "urlPicture": "https://www.meisterdrucke.fr/kunstwerke/1260px/Unknown_Artist_-_Portrait_of_Charlemagne_%28742_-_814%29_King_of_France_-_in_Histoire_des_Franais_by_-_%28MeisterDrucke-913795%29.jpg",
-            "widthPicture": 164,
-            "heightPicture": 120,
+            "urlPicture": "https://m.media-amazon.com/images/M/MV5BNmNjOTIwMDYtNDI0Mi00OGFkLWI3YjItYmI2MDg4OTRkNGU3XkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg",
+            "widthPicture": 400,
+            "heightPicture": 300,
             "hasAudio": false,
             "urlAudio": "",
-            "hasVideo": true,
-            "urlVideo": "https://www.youtube-nocookie.com/embed/TursZNv5dA8?playlist=TursZNv5dA8&autoplay=1&iv_load_policy=3&loop=1&start=",
-            "widthVideo": 164,
-            "heightVideo": 120
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "De quel anime est tiré cette image ?", 
+          "playerAnswer": "", 
+          "answer": "Paranoia Agent",
+          "possibleAnswers": ["paranoia agent"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Puella Magi Madoka Magica", 
+            "Paranoia Agent", 
+            "Wonder Egg Priority", 
+            "Another"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://imgix.ranker.com/list_img_v2/5335/2765335/original/best-anime-like-paranoia-agent-recommendations?fit=crop&fm=pjpg&q=80&dpr=2&w=1200&h=720",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "De quel anime est tiré cette image ?", 
+          "playerAnswer": "", 
+          "answer": "Perfect Blue",
+          "possibleAnswers": ["Perfect Blue"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "La Blue Girl", 
+            "Millennium Actress", 
+            "Ani-Kuri 15", 
+            "Perfect Blue"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://m.media-amazon.com/images/M/MV5BNjJiNWY2Y2UtOWU1NC00ZWIxLTk2MTYtYTc3OGFlY2QxOTNhXkEyXkFqcGdeQXVyMDc2NTEzMw@@._V1_.jpg",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "playerAnswer": "", 
+          "answer": "Satoshi Kon",
+          "possibleAnswers": ["Satoshi Kon"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Satoshi Kon", 
+            "Sashi Kon", 
+            "Satoshi Con", 
+            "Sotashi Kon"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "De quel anime est tiré cette image ?", 
+          "playerAnswer": "", 
+          "answer": "TSUKIMICHI -Moonlit Fantasy-",
+          "possibleAnswers": ["TSUKIMICHI -Moonlit Fantasy-", "TSUKIMICHI"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "TSUKIMISHI -Moonlit Fantasy-", 
+            "Samurai Fantasy -Dragon Fist-", 
+            "TSUKIMICHI -Moonlit Fantasy-", 
+            "Samurai Dragon -Moonlit Fantasy-"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=640,height=360,quality=70/catalog/crunchyroll/178723f4ce0c9853338ec7a1bb69a0fd.jpe",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "De quel anime est tiré cette image ?", 
+          "playerAnswer": "", 
+          "answer": "Shangri-La Frontier",
+          "possibleAnswers": ["Shangri-La Frontier"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Shangri-La VR", 
+            "Sangrila Frontier", 
+            "SAO", 
+            "Shangri-La Frontier"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://a.storyblok.com/f/178900/1920x1080/8d1acf33d8/shangri-la-frontier.png",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "De quel anime est tiré cette image ?", 
+          "playerAnswer": "", 
+          "answer": "B The Beginning",
+          "possibleAnswers": ["B The Beginning"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Arlecchino", 
+            "Zetman", 
+            "In the Beginning", 
+            "B The Beginning"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQAKtEthVhXfxxBXp7Myw5RGtCgmpOuAqcz_Upf9FXVym9jn6UGAr6dU5Q1AZywIGVwsLHHQAsnymrgO61wWVlhlcx127zyCipQYOYU6hpzFuJKbGnmvykw0.jpg?r=d04",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "Qui est ce personnage ?", 
+          "playerAnswer": "", 
+          "answer": "Beatrice",
+          "possibleAnswers": ["Beatrice"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Clara", 
+            "Beatrice", 
+            "Elisabeth", 
+            "Silvia"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://i.etsystatic.com/43040006/r/il/cf6188/5331824575/il_570xN.5331824575_f4qr.jpg",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "Quel est le pseudo de l'auteur ?", 
+          "playerAnswer": "", 
+          "answer": "Ryukishi07",
+          "possibleAnswers": ["Ryukishi07"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Ryukishi07", 
+            "Ryukishu07", 
+            "Ryukishin07", 
+            "Ryukishun07"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://animebird.net/wp-content/uploads/2016/08/92826abb5c7b0cf7d50ee9e1e1ea1cd5f44892481f010d300e1f133c6f87dfdb.jpg?w=1200&h=800&crop=1",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "De quel anime est tiré cette image ?", 
+          "playerAnswer": "", 
+          "answer": "Monster Rancher",
+          "possibleAnswers": ["Monster Rancher"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Yuumichi Shinji", 
+            "Watamote", 
+            "Monster Rancher", 
+            "Bakemono Getero"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://canvas-bridge02.tubitv.com/b95lpv1XOC1lHbjIfOH3miQ8cZ4=/1920x1080/smart/img.adrise.tv/80625106-3820-46d3-9d0b-c144eb531bb2.jpg",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "De quel anime est tiré cette image ?", 
+          "playerAnswer": "", 
+          "answer": "Bungo Stray Dogs",
+          "possibleAnswers": ["Bungo Stray Dogs"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Psycho-Pass", 
+            "Bungo Stray Dogs", 
+            "B The Beginning", 
+            "Yuumichi Shinji"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://www.fredzone.org/wp-content/uploads/2023/03/Anime-Bungo-Stray-Dogs-saison-5.jpeg",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "De quel anime est tiré cette image ?", 
+          "playerAnswer": "", 
+          "answer": "Durarara!!",
+          "possibleAnswers": ["Durarara!!", "Durarara"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Durarara!!", 
+            "Durara!!", 
+            "Durararara!!", 
+            "Durrara!!"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://images.mubicdn.net/images/film/255011/cache-505974-1579403205/image-w1280.jpg?size=800x",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "De quel anime est tiré cette image ?", 
+          "playerAnswer": "", 
+          "answer": "Needless",
+          "possibleAnswers": ["Needless"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Granrodeo", 
+            "Strange Modern Cowboy", 
+            "Needless", 
+            "Neverless"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://solarisjapan.com/cdn/shop/products/61wX83bHS4L_8b62bd08-bbd0-42d5-ae82-e35e33283c48.jpeg?v=1571440618",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "Quel est le nom du personnage principal ?", 
+          "playerAnswer": "", 
+          "answer": "Adam Blade",
+          "possibleAnswers": ["Adam Blade", "Adam"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Adam Blade", 
+            "Ryuujin", 
+            "Arclight", 
+            "Black Adam"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://m.media-amazon.com/images/M/MV5BZjE2OGY1ODctNDA2OC00MmU3LTlhN2QtYTY4NGI3MGIyMWM0XkEyXkFqcGdeQXVyNjM2NDIwMzQ@._V1_.jpg",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "De quel anime est tiré cette image ?", 
+          "playerAnswer": "", 
+          "answer": "Boogiepop Phantom",
+          "possibleAnswers": ["Boogiepop Phantom"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Zetman", 
+            "B The Beginning", 
+            "Boogiepop Phantom", 
+            "Millennium Actress"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/01/boogiepop-phantom.jpg?q=50&fit=crop&w=1500&dpr=1.5",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "playerAnswer": "", 
+          "answer": "Satoshi Kon",
+          "possibleAnswers": ["Satoshi Kon"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Satoshi Kon", 
+            "Sashi Kon", 
+            "Satoshi Con", 
+            "Sotashi Kon"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "playerAnswer": "", 
+          "answer": "Satoshi Kon",
+          "possibleAnswers": ["Satoshi Kon"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Satoshi Kon", 
+            "Sashi Kon", 
+            "Satoshi Con", 
+            "Sotashi Kon"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "playerAnswer": "", 
+          "answer": "Satoshi Kon",
+          "possibleAnswers": ["Satoshi Kon"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Satoshi Kon", 
+            "Sashi Kon", 
+            "Satoshi Con", 
+            "Sotashi Kon"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "playerAnswer": "", 
+          "answer": "Satoshi Kon",
+          "possibleAnswers": ["Satoshi Kon"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Satoshi Kon", 
+            "Sashi Kon", 
+            "Satoshi Con", 
+            "Sotashi Kon"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "playerAnswer": "", 
+          "answer": "Satoshi Kon",
+          "possibleAnswers": ["Satoshi Kon"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Satoshi Kon", 
+            "Sashi Kon", 
+            "Satoshi Con", 
+            "Sotashi Kon"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "playerAnswer": "", 
+          "answer": "Satoshi Kon",
+          "possibleAnswers": ["Satoshi Kon"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Satoshi Kon", 
+            "Sashi Kon", 
+            "Satoshi Con", 
+            "Sotashi Kon"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "playerAnswer": "", 
+          "answer": "Satoshi Kon",
+          "possibleAnswers": ["Satoshi Kon"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Satoshi Kon", 
+            "Sashi Kon", 
+            "Satoshi Con", 
+            "Sotashi Kon"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "playerAnswer": "", 
+          "answer": "Satoshi Kon",
+          "possibleAnswers": ["Satoshi Kon"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Satoshi Kon", 
+            "Sashi Kon", 
+            "Satoshi Con", 
+            "Sotashi Kon"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
+          }
+        },
+        {
+          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "playerAnswer": "", 
+          "answer": "Satoshi Kon",
+          "possibleAnswers": ["Satoshi Kon"],
+          "visible": true, 
+          "hasAnswered": false, 
+          "hasGoodAnswer": false, 
+          "useFourChoices": false, 
+          "fourChoises": [
+            "Satoshi Kon", 
+            "Sashi Kon", 
+            "Satoshi Con", 
+            "Sotashi Kon"
+          ],
+          "elements": {
+            "hasPicture": true,
+            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "widthPicture": 400,
+            "heightPicture": 300,
+            "hasAudio": false,
+            "urlAudio": "",
+            "hasVideo": false,
+            "urlVideo": "",
+            "widthVideo": 0,
+            "heightVideo": 0
           }
         }
 
