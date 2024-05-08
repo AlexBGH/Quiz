@@ -422,23 +422,23 @@
           }
         },
         {
-          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "question": "De quel anime est tiré cette image ?", 
           "playerAnswer": "", 
-          "answer": "Satoshi Kon",
-          "possibleAnswers": ["Satoshi Kon"],
+          "answer": "Id: Invaded",
+          "possibleAnswers": ["Id: Invaded"],
           "visible": true, 
           "hasAnswered": false, 
           "hasGoodAnswer": false, 
           "useFourChoices": false, 
           "fourChoises": [
-            "Satoshi Kon", 
-            "Sashi Kon", 
-            "Satoshi Con", 
-            "Sotashi Kon"
+            "Identity: Invaded", 
+            "Identity: Invasion", 
+            "Id: Invasion", 
+            "Id: Invaded"
           ],
           "elements": {
             "hasPicture": true,
-            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "urlPicture": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/07/ID-Invaded.jpg?q=50&fit=crop&w=1500&dpr=1.5",
             "widthPicture": 400,
             "heightPicture": 300,
             "hasAudio": false,
@@ -450,23 +450,23 @@
           }
         },
         {
-          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "question": "De quel anime est tiré cette image ?", 
           "playerAnswer": "", 
-          "answer": "Satoshi Kon",
-          "possibleAnswers": ["Satoshi Kon"],
+          "answer": "Erased",
+          "possibleAnswers": ["Erased"],
           "visible": true, 
           "hasAnswered": false, 
           "hasGoodAnswer": false, 
           "useFourChoices": false, 
           "fourChoises": [
-            "Satoshi Kon", 
-            "Sashi Kon", 
-            "Satoshi Con", 
-            "Sotashi Kon"
+            "Erased", 
+            "Erase", 
+            "Delete", 
+            "Deleted"
           ],
           "elements": {
             "hasPicture": true,
-            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "urlPicture": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/07/Erased.jpg?q=50&fit=crop&w=1500&dpr=1.5",
             "widthPicture": 400,
             "heightPicture": 300,
             "hasAudio": false,
@@ -478,23 +478,23 @@
           }
         },
         {
-          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "question": "Qui est ce personnage ?", 
           "playerAnswer": "", 
-          "answer": "Satoshi Kon",
-          "possibleAnswers": ["Satoshi Kon"],
+          "answer": "Monokuma",
+          "possibleAnswers": ["Monokuma"],
           "visible": true, 
           "hasAnswered": false, 
           "hasGoodAnswer": false, 
           "useFourChoices": false, 
           "fourChoises": [
-            "Satoshi Kon", 
-            "Sashi Kon", 
-            "Satoshi Con", 
-            "Sotashi Kon"
+            "Monokuma", 
+            "Despair Kuma", 
+            "Volt Face Kuma", 
+            "Duo Kuma"
           ],
           "elements": {
             "hasPicture": true,
-            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "urlPicture": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/11/Danganronpa.jpg?q=50&fit=crop&w=1500&dpr=1.5",
             "widthPicture": 400,
             "heightPicture": 300,
             "hasAudio": false,
@@ -506,23 +506,23 @@
           }
         },
         {
-          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "question": "De quel anime est tiré cette image ?", 
           "playerAnswer": "", 
-          "answer": "Satoshi Kon",
-          "possibleAnswers": ["Satoshi Kon"],
+          "answer": "Magical Girl Site",
+          "possibleAnswers": ["Magical Girl Site"],
           "visible": true, 
           "hasAnswered": false, 
           "hasGoodAnswer": false, 
           "useFourChoices": false, 
           "fourChoises": [
-            "Satoshi Kon", 
-            "Sashi Kon", 
-            "Satoshi Con", 
-            "Sotashi Kon"
+            "Magical Girl Web Site", 
+            "Magical Girl Nightmare", 
+            "Magical Girl of Despair", 
+            "Magical Girl Site"
           ],
           "elements": {
             "hasPicture": true,
-            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "urlPicture": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/magical-girl-site.jpg?q=50&fit=crop&w=1500&dpr=1.5",
             "widthPicture": 400,
             "heightPicture": 300,
             "hasAudio": false,
@@ -534,23 +534,23 @@
           }
         },
         {
-          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "question": "De quel anime est tiré cette image ?", 
           "playerAnswer": "", 
-          "answer": "Satoshi Kon",
-          "possibleAnswers": ["Satoshi Kon"],
+          "answer": "F - The Perfect Insider",
+          "possibleAnswers": ["F - The Perfect Insider", "The Perfect Insider"],
           "visible": true, 
           "hasAnswered": false, 
           "hasGoodAnswer": false, 
           "useFourChoices": false, 
           "fourChoises": [
-            "Satoshi Kon", 
-            "Sashi Kon", 
-            "Satoshi Con", 
-            "Sotashi Kon"
+            "F - The Perfect Invader", 
+            "F - The Perfect Intruder", 
+            "F - The Perfect Insider", 
+            "F - The Pro Intruder"
           ],
           "elements": {
             "hasPicture": true,
-            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "urlPicture": "https://www.animint.com/encyclopedie/base/image/s/subete-naru.jpg",
             "widthPicture": 400,
             "heightPicture": 300,
             "hasAudio": false,
@@ -562,23 +562,23 @@
           }
         },
         {
-          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "question": "De quel anime est tiré cette image ?", 
           "playerAnswer": "", 
-          "answer": "Satoshi Kon",
-          "possibleAnswers": ["Satoshi Kon"],
+          "answer": "Death Parade",
+          "possibleAnswers": ["Death Parade"],
           "visible": true, 
           "hasAnswered": false, 
           "hasGoodAnswer": false, 
           "useFourChoices": false, 
           "fourChoises": [
-            "Satoshi Kon", 
-            "Sashi Kon", 
-            "Satoshi Con", 
-            "Sotashi Kon"
+            "Parade of the Death", 
+            "Death Parade", 
+            "Death Dance", 
+            "Dance with the Death"
           ],
           "elements": {
             "hasPicture": true,
-            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "urlPicture": "https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=1200,height=675,quality=70/catalog/crunchyroll/ec6858180d6b1138522e1278e0d63db2.jpe",
             "widthPicture": 400,
             "heightPicture": 300,
             "hasAudio": false,
@@ -590,23 +590,23 @@
           }
         },
         {
-          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "question": "De quel anime est tiré cette image ?", 
           "playerAnswer": "", 
-          "answer": "Satoshi Kon",
-          "possibleAnswers": ["Satoshi Kon"],
+          "answer": "Another",
+          "possibleAnswers": ["Another"],
           "visible": true, 
           "hasAnswered": false, 
           "hasGoodAnswer": false, 
           "useFourChoices": false, 
           "fourChoises": [
-            "Satoshi Kon", 
-            "Sashi Kon", 
-            "Satoshi Con", 
-            "Sotashi Kon"
+            "Her", 
+            "Them", 
+            "Another", 
+            "This"
           ],
           "elements": {
             "hasPicture": true,
-            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "urlPicture": "https://www.nautiljon.com/images/galerie/08/86/another_702868.jpg",
             "widthPicture": 400,
             "heightPicture": 300,
             "hasAudio": false,
@@ -618,23 +618,23 @@
           }
         },
         {
-          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "question": "De quel anime est tiré cette image ?", 
           "playerAnswer": "", 
-          "answer": "Satoshi Kon",
-          "possibleAnswers": ["Satoshi Kon"],
+          "answer": "Shiki",
+          "possibleAnswers": ["Shiki"],
           "visible": true, 
           "hasAnswered": false, 
           "hasGoodAnswer": false, 
           "useFourChoices": false, 
           "fourChoises": [
-            "Satoshi Kon", 
-            "Sashi Kon", 
-            "Satoshi Con", 
-            "Sotashi Kon"
+            "Blodd C", 
+            "Blood ++", 
+            "Shiki", 
+            "Shikii"
           ],
           "elements": {
             "hasPicture": true,
-            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "urlPicture": "https://gargarstegosaurus.wordpress.com/wp-content/uploads/2010/09/shiki11_49-jpg.jpeg?w=640",
             "widthPicture": 400,
             "heightPicture": 300,
             "hasAudio": false,
@@ -646,23 +646,23 @@
           }
         },
         {
-          "question": "Qui est le réalisateur de des trois oeuvres des questions précédentes ?", 
+          "question": "De quel anime est tiré cette image ?", 
           "playerAnswer": "", 
-          "answer": "Satoshi Kon",
-          "possibleAnswers": ["Satoshi Kon"],
+          "answer": "Blood C",
+          "possibleAnswers": ["Blood C"],
           "visible": true, 
           "hasAnswered": false, 
           "hasGoodAnswer": false, 
           "useFourChoices": false, 
           "fourChoises": [
-            "Satoshi Kon", 
-            "Sashi Kon", 
-            "Satoshi Con", 
-            "Sotashi Kon"
+            "Blodd C", 
+            "Blood ++", 
+            "Shiki", 
+            "Shikii"
           ],
           "elements": {
             "hasPicture": true,
-            "urlPicture": "https://film-animation.blogs.la-croix.com/wp-content/uploads/sites/77/2021/07/SATOSHI-KON-%C2%A9-EUROSPACE-GENCO-ALLERTON-FILMS-CARLOTTA-FILMS.-Tous-droits-r%C3%A9serv%C3%A9s..jpg",
+            "urlPicture": "https://m.media-amazon.com/images/M/MV5BYzQwOTI1ZjQtOTQzYi00MWI0LWI4NDQtY2VjNDU5MmQ4NDIxXkEyXkFqcGdeQWFuaW5vc2M@._V1_.jpg",
             "widthPicture": 400,
             "heightPicture": 300,
             "hasAudio": false,

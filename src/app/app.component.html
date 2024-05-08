@@ -38,7 +38,7 @@
             <div *ngIf="quiz.visible">
                 <button type="button" (click)="onClickFourChoices(quiz.useFourChoices, i)" *ngIf="!quiz.useFourChoices">Je veux les 4 choix</button>
                 <button type="button" (click)="onClickPlayerAnswer(quiz.playerAnswer, i)" *ngIf="!quiz.useFourChoices">OK</button>
-                <button type="button" (click)="onClickPlayerAnswer(quiz.playerAnswer, i)" *ngIf="quiz.useFourChoices && !quiz.playerAnswer"  style="margin-left: 60px;">OK</button>
+                <button type="button" (click)="onClickPlayerAnswer(quiz.playerAnswer, i)" *ngIf="quiz.useFourChoices"  style="margin-left: 60px;">OK</button>
             </div>
         </div>
         <div *ngIf="quiz.hasAnswered">
