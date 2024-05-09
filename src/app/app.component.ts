@@ -23,9 +23,9 @@ export class AppComponent implements OnInit {
   iframeSrc!: SafeUrl;
   dangerousUrl!: string;
   quizName!: string;
-  badAnswerWithChoices!: boolean;
   count!: number;
   quizs!: {
+    badAnswerWithChoices?: boolean;
     question: string, 
     playerAnswer: string, 
     answer: string,
@@ -72,19 +72,20 @@ export class AppComponent implements OnInit {
   onClickPlayerAnswer(playerAnswer: string, i: number) {
     this.onSubmit(playerAnswer, i);
     if(!this.quizs[i].useFourChoices) {
-      this.badAnswerWithChoices = false;
+      this.quizs[i].badAnswerWithChoices = false;
     } 
     this.quizs[i].hasAnswered = !this.quizs[i].hasAnswered;
   }
 
   onClickPlayerAnswerAfterBadAnswer(playerAnswer: string, i: number) {
     this.quizs[i].useFourChoices = true;
-    this.badAnswerWithChoices = true;
+    this.quizs[i].badAnswerWithChoices = true;
     this.onSubmit(playerAnswer, i);
   }
 
   onClickFourChoices(useFourChoices: boolean, i: number) {
     this.quizs[i].useFourChoices = !useFourChoices;
+    this.quizs[i].badAnswerWithChoices = true;
   }
 
   onSubmit(playerAnswer: string, i: number) {
@@ -99,7 +100,7 @@ export class AppComponent implements OnInit {
     } else if (this.quizs[i].hasGoodAnswer && this.quizs[i].useFourChoices) {
       this.points = this.points + 1;
     }
-    if(!this.badAnswerWithChoices){
+    if(!this.quizs[i].badAnswerWithChoices){
       this.quizs[i].visible = !this.quizs[i].visible;
     }
   }
